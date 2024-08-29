@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Monstserrat', sans-serif;
+}
+
+body{
+    background-color: rgb(119, 118, 117);
+    font-size: 14px;
+    line-height: 22px;
+    color: rgb(98, 78, 78);
+}
+
+.data1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+
+.data1 .data2{
+    width: 280px;
+    background-color:rgb(91, 81, 78);
+
+}
+
+.data1 .data2 .profile {
+    width: 100%;
+    height: 280px;
+    background-color: rgb(70, 28, 28);
+}
+
+.data1 .data2 .profile img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.data1 .data2 .content{
+    padding: 0 25px;
+}
+
+.data1 .lanjutan-item{
+    padding: 25px 0;
+    border-bottom: 2px solid;
+}
+
+.data1 .title{
+    margin-bottom: 20px ;
+}
+
+.data1 .data2 .bold{
+    color: #fff;
+}
+
+.data1 .data2 .regular{
+    color: #aeb5b7;
+}
+
+.bold{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.data1 .data2 ul li{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.data1 .data2 ul li:last-child{
+    margin-bottom: 0;
+
+}
+
+.data1 .data2 ul li .icon{
+    width: 25px;
+    height: 25px;
+    background-color: #f3f7f8;
+    color: rgb(50, 43, 35);
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 16px;
+    position: relative;
+}
+
+.data1 .icon i{
+    position:absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.data1 .data2 ul li .data{
+    color: #d9e1e4;
+}
+
+.data1 .data2 .lanjutan-skill ul li{
+    display: flex;
+    margin-bottom: 10px;
+    color: #d9e1e4;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data1 .data2 .lanjutan-skill ul li .skill-name{
+    width: 25%;
+}
+
+.data1 .data2 .lanjutan-skill ul li .skill-progress{
+    width: 60%;
+    margin-left: 25px;
+    margin-right: 5px;
+    height: 5px;
+    background-color: #ff5c5c;
+    position: relative;
+}
+
+.data1 .data2 .lanjutan-skill ul li .skill-progress span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #fff;
+}
+
+.data1 .data2 .lanjutan-skill ul li .skill-persen{
+    width: 15%;
+}
+
+.data1 .data2 .lanjutan-sosial .semi-bold{
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+.semi-bold{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* bagiann sebelah kanan */
+.data1 .data3{
+    width: 520px;
+    background-color: #fff;
+    padding: 25px;
+}
+
+.data1 .data2 .lanjutan-item:last-child,
+.data1 .data3 .lanjutan-item:last-child{
+    border-bottom: 0px;
+}
+
+
+.data1 .data3 .bold{
+    color: #333e51;
+}
+
+.data1 .data3 ul li{
+    position: relative;
+}
+
+.list-pendidikan {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-pendidikan li {
+    margin-bottom: 5px;
+}
+
+.tahun {
+    display: inline-block;
+    width: 150px;
+}
+
+.asal {
+    display: inline-block;
+}
+.data1 .data3 ul li .date{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0.5px;
+}
+
+
+.data1 .data3 ul li .info{
+    margin-bottom: 7px;
+}
+
+.data1 .data3 ul li:last-child .info{
+    margin-bottom: 0;
+}
+
+.data1 .data3 .lanjutan-pendidikan ul,
+.data1 .data3 .lanjutan-kerja ul,
+.data1 .data3 .lanjutan-penghargaan ul{
+    padding-left: 30px;
+    overflow: hidden;
+}
+.data1 .data3 .lanjutan-pendidikan ul li::before,
+.data1 .data3 .lanjutan-kerja ul li::before,
+.data1 .data3 .lanjutan-penghargaan ul li::before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #333e51;
+    border: 2px solid #333e51;
+}
+.data1 .data3 .lanjutan-pendidikan ul li::after,
+.data1 .data3 .lanjutan-kerja ul li::after,
+.data1 .data3 .lanjutan-penghargaan ul li::after{
+    content: "";
+    position: absolute;
+    background-color: #333e51;
+    top: 14px;
+    left: -21px;
+    width: 2px;
+    height: 115px;
+}
+
+.data1 .data3 .lanjutan-penghargaan .semi-bold{
+    margin-bottom: 3px;
+    text-align: justify;
+}
+
+.data1 .data3 .lanjutan-item p{
+    text-align: justify;
+}
+
