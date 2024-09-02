@@ -13,9 +13,11 @@ body{
     font-size: 14px;
     line-height: 22px;
     color: rgb(98, 78, 78);
+    padding: 20px;
 }
 
 .data1{
+    max-width: 800px;
     width: 100%;
     height: auto;
     display: flex;
